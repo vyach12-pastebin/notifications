@@ -11,14 +11,14 @@ import org.springframework.context.annotation.Configuration;
 
 @Configuration
 @Getter
-public class EmailListenerConfiguration {
-    @Value("${spring.rabbitmq.exchanges.register}")
+public class RegisterNotificationsListenerConfiguration {
+    @Value("${spring.rabbitmq.exchanges.register-notification}")
     private String internalExchange;
 
-    @Value("${spring.rabbitmq.queues.register}")
+    @Value("${spring.rabbitmq.queues.register-notification}")
     private String transactionQueue;
 
-    @Value("${spring.rabbitmq.routing-keys.register}")
+    @Value("${spring.rabbitmq.routing-keys.register-notification}")
     private String internalTransactionRoutingKey;
 
     @Bean

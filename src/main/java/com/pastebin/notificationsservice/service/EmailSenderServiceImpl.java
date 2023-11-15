@@ -1,7 +1,5 @@
 package com.pastebin.notificationsservice.service;
 
-package com.pastebin.authentication.service.impl;
-
 import com.pastebin.notificationsservice.exception.CanNotSendEmailException;
 import com.pastebin.notificationsservice.exception.ErrorCode;
 import jakarta.mail.*;
