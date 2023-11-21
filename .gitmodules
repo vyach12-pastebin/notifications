@@ -1,0 +1,3 @@
+[submodule "transfer-contract"]
+	path = transfer-contract
+	url = https://github.com/vyach12-pastebin/transfer-contract.git
